@@ -1,0 +1,727 @@
+body {
+    background-color: #212121;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #212121;
+}
+    
+.navbar-brand {
+  font-family: Viga;
+}
+    
+.nav-link {
+  font-family: Kanit;
+  margin-right: 20px;
+  color: white !important;
+}
+    
+.nav-link.active {
+  color: #FFC60B !important;
+}
+    
+.navbar-brand:hover, .nav-link:hover {
+  color: #FFC60B !important;
+}
+   
+/* Jumbotron */
+.jumbotron {
+  background-color: #212121;
+}
+
+.jumbotron .display-4 {
+  font-family: Kanit;
+  color: #FFC60B;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 39px;
+  margin-top: 50px;
+}
+   
+.jumbotron h3 {
+  font-family: Kanit;
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 60px;
+  margin-top: -20px;
+  margin-bottom: -15px;
+}
+     
+.jumbotron p {
+  font-family: Roboto;
+  font-weight: 400;
+  color: #bfbfbf;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.jumbotron p span {
+  color: white;
+}
+
+.jumbotron p span:hover {
+  color: #bfbfbf;
+}
+    
+.btn.btn-tombol {
+  font-family: Roboto;
+  font-size: 14px;
+  size: 50px;
+  background-color: #FFC60B;
+  color: #212121;
+  margin-right: 20px;
+}
+
+.tombol .email {
+  margin-right: 10px;
+}
+
+.btn.btn-tombol:hover {
+  background-color: rgba(255, 198, 11, 0.815);
+}
+
+.cv {
+  font-family: Roboto;
+  font-size: 14px;
+  color: #bfbfbf;
+}
+
+.cv:hover {
+  color: white;
+  text-decoration: none;
+}
+    
+.jumbotron .foto {
+  margin-top: 40px;
+}
+
+.jumbotron .sosmed {
+  margin-right: 20px;
+  color: #bfbfbf;
+  font-size: 28px;
+}
+
+.sosmed {
+  margin-top: 5px;
+}
+
+.jumbotron .sosmed:hover {
+  color: white;
+}
+
+.jumbotron .akun {
+  padding: 15px;
+}
+
+/* Pendidikan dan Organisasi */
+.pendidikan-utama h1,
+.organisasi-utama h1 {
+  font-family: Kanit;
+  color: white;
+  font-size: 30px;
+  line-height: 39px;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+  .pendidikan-utama {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .pendidikan-utama p,
+  .organisasi-utama p {
+    font-family: Roboto;
+    font-size: 16px;
+    color: #bfbfbf;
+  }
+
+  .pendidikan-utama h2,
+  .organisasi-utama h2 {
+    font-size: 16px;
+    color: #FFC60B;
+  }
+
+  .pendidikan-utama span,
+  .organisasi-utama span {
+    display: block;
+    width: 90%;
+    height: 90%;
+    background-color: #21212100;
+    position: absolute;
+    top: 0;
+    text-align: left;
+    line-height: 80%;
+    padding: 20px;
+    text-shadow: 1px 1px 1px #141414;
+  }
+
+.pendidikan-menu h1,
+.organisasi-menu h1 {
+  font-family: Kanit;
+  color: white;
+  font-size: 30px;
+  line-height: 39px;
+  margin-top: 150px;
+  font-weight: 600;
+}
+
+.pendidikan-utama img {
+  margin-bottom: 80px;
+}
+
+.pendidikan-item h2,
+.organisasi-item h2 {
+  font-family: Kanit;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+.pendidikan-item h3,
+.organisasi-item h3 {
+  font-family: Roboto;
+  font-size: 14px;
+  color: #bfbfbf;
+}
+
+.pendidikan-item p,
+.organisasi-item p {
+  font-family: Roboto;
+  color: #bfbfbf;
+  line-height: 30px;
+  margin-top: 15px;
+}
+
+.pendidikan-item a,
+.organisasi-item a {
+  font-family: Roboto;
+  color: white;
+  text-decoration: none;
+}
+
+.pendidikan-item a:hover,
+.organisasi-item a:hover {
+  color: #bfbfbf;
+}
+
+.pendidikan-item img,
+.organisasi-item img {
+  box-shadow: 0 0 4px rgba(0,0,0,.2);
+  margin-top: 50px;
+  width: 100%;
+}
+
+.akhir-text {
+  margin-bottom: 60px;
+}
+
+/* Sertifikat */
+.sertifikat-menu h1 {
+  font-family: Kanit;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 600;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+.sertifikat-item span {
+  display: block;
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: italic;
+  text-align: center;
+  color: #bfbfbf;
+  margin-top: 10px;
+  margin-bottom: 80px;
+}
+
+.overlay {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #21212100;
+  z-index: 9999;
+  transition: .7s;
+  text-align: center;
+  padding: 100px;
+}
+
+.overlay:target {
+  width: auto;
+  height: auto;
+  bottom: 0;
+  right: 0;
+  background-color: #212121dd;
+}
+
+.overlay img {
+  width: 230px;
+  height: 130;
+  max-height: 100%;
+}
+
+.overlay:target img {
+  animation: zoomDanFade .7s;
+}
+
+.overlay .cloase {
+  opacity: 0;
+}
+
+.overlay:target .cloase {
+  animation: slideDownFade .5s .5s forwards;
+  position: absolute;
+  font-size: 20px;
+  color: #FFC60B;
+  top: 50px;
+  left: 50%;
+}
+
+@keyframes zoomDanFade {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes slideDownFade {
+  0% {
+    opacity: 0;
+    margin-top: -20px;
+  }
+
+  100% {
+    opacity: 1;
+    margin-top: 0;
+  }
+}
+
+/* Kontak */
+.kontak {
+  background-color: #181818;
+  text-align: center;
+  padding: 50px;
+}
+
+.kontak-item h1 {
+  font-family: Kanit;
+  color: white;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 40px
+}
+
+.kontak-item p {
+  font-family: Roboto;
+  color: #bfbfbf;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.kontak-item a {
+  font-family: Roboto;
+  text-decoration: none;
+  color: white;
+  line-height: 30px;
+}
+
+.kontak-item a:hover {
+  color: #bfbfbf;
+}
+
+.kontak .sosmed {
+  color: #bfbfbf;
+  font-size: 28px;
+}
+
+.kontak .sosmed.email {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.kontak .sosmed.instagram,
+.kontak .sosmed.whatsapp,
+.kontak .sosmed.facebook {
+  margin-right: 15px;
+
+}
+
+.kontak .fas, .fab {
+  color: #bfbfbf;
+} 
+
+.fas:hover, 
+.fab:hover {
+  color: white;
+} 
+
+.kontak .logo img {
+  width: 25%;
+  margin-top: -445px;
+}
+
+/* Footer */
+.footer {
+  font-family: Roboto;
+  background-color: #141414;
+  color: #bfbfbf;
+  text-align: center;
+  font-size: 12px;
+}
+
+
+
+
+
+
+
+
+/* DESKTOP */
+@media (min-width: 992px) {
+  /* Jumbotron */
+  .jumbotron .display-4 {
+    font-family: Kanit;
+    color: #FFC60B;
+    font-size: 30px;
+    margin-top: 100px;
+    line-height: 70px;
+  }
+     
+  .jumbotron h3 {
+    font-family: Kanit;
+    color: white;
+    font-size: 46px;
+    margin-bottom: 25px;
+  }
+
+  .jumbotron .sosmed {
+    color: #bfbfbf;
+    font-size: 28px;
+    margin-right: 40px;
+  }
+
+  .btn.btn-tombol {
+    margin-right: 40px;
+  }
+
+  .jumbotron .foto {
+    margin-top: 80px;
+  }
+
+  /* Blog */
+  .blog {
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
+
+  /* Pendidikan dan Organisasi */
+  .pendidikan-utama h1,
+  .organisasi-utama h1 {
+    margin-top: 50px;
+    font-size: 46px;
+  }
+
+  .pendidikan-utama,
+  .organisasi-utama {
+    margin-top: 80px;
+  }
+
+  .pendidikan-utama p,
+  .organisasi-utama p {
+    font-family: Roboto;
+    font-size: 16px;
+    color: #bfbfbf;
+  }
+
+  .pendidikan-utama h2,
+  .organisasi-utama h2 {
+    font-size: 16px;
+    color: #FFC60B;
+  }
+
+  .pendidikan-utama span,
+  .organisasi-utama span {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: #212121bb;
+    position: absolute;
+    top: 0;
+    text-align: left;
+    line-height: 80%;
+    padding: 30px;
+    text-shadow: 1px 1px 1px #141414;
+    opacity: 0;
+    transition: .3s;
+  }
+  
+  .pendidikan-utama a:hover span,
+  .organisasi-utama a:hover span {
+    opacity: 1;
+  }
+  
+  .pendidikan-menu h1,
+  .organisasi-menu h1 {
+    font-size: 46px;
+  }
+
+  .pendidikan-item h2,
+  .organisasi-item h2 {
+    font-family: Kanit;
+    font-size: 22px;
+    margin-top: 50px;
+  }
+
+  .pendidikan-item .home p,
+  .organisasi-item .home p {
+    font-family: Roboto;
+  }
+
+  .akhir-text {
+    margin-bottom: 80px;
+  }
+
+  /* Piagam */
+  .piagam h1 {
+    font-size: 46px;
+  }
+
+  .piagam .awal img {
+    margin-bottom: 40px;
+  }
+
+  .piagam .akhir img {
+    margin-bottom: 100px;
+  }
+
+  .piagam .smk span {
+    line-height: 120px;
+  }
+
+  .piagam span {
+    display: block;
+    color: #FFC60B;
+    font-size: 14px;
+    width: 100%;
+    height: 100%;
+    background-color: #212121dd;
+    text-align: center;
+    position: absolute;
+    margin-left: -15px;
+    top: -10px;
+    line-height: 230px;
+    text-shadow: 1px 1px 1px #141414;
+    opacity: 0;
+    transition: .3s;
+  }
+  
+  .piagam a:hover span {
+    opacity: 1;
+  }
+
+  .overlay {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #21212100;
+    z-index: 9999;
+    transition: .7s;
+    text-align: center;
+    padding: 100px;
+  }
+
+  .overlay:target {
+    width: auto;
+    height: auto;
+    bottom: 0;
+    right: 0;
+    background-color: #212121dd;
+  }
+
+  .piagam .overlay img {
+    width: 300px;
+    height: 900px;
+    max-height: 100%;
+  }
+
+  .piagam .smk .overlay img {
+    width: 650px;
+    height: 450px;
+    max-height: 100%;
+  }
+
+  .overlay:target img {
+    animation: zoomDanFade .7s;
+  }
+
+  .overlay .cloase {
+    margin-left: -15px;
+    opacity: 0;
+  }
+  
+  .overlay:target .cloase {
+    animation: slideDownFade .5s .5s forwards;
+    position: absolute;
+    font-size: 24px;
+    color: #FFC60B;
+    top: 50px;
+    left: 50%;
+  }
+
+  /* Setifikat */
+  .sertifikat-menu h1 {
+    font-size: 46px;
+  }
+
+  .sertifikat-item img {
+    margin-bottom:100px;
+  }
+
+  .sertifikat-item span {
+    display: block;
+    color: #FFC60B;
+    font-size: 14px;
+    width: 255px;
+    height: 170px;
+    background-color: #212121dd;
+    position: absolute;
+    top: -10px;
+    line-height: 170px;
+    text-shadow: 1px 1px 1px #141414;
+    opacity: 0;
+    transition: .3s;
+  }
+  
+  .sertifikat-item a:hover span {
+    opacity: 1;
+  }
+
+  .overlay {
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #21212100;
+    z-index: 9999;
+    transition: .7s;
+    text-align: center;
+    padding: 100px;
+  }
+
+  .overlay:target {
+    width: auto;
+    height: auto;
+    bottom: 0;
+    right: 0;
+    background-color: #212121dd;
+  }
+
+  .overlay img {
+    width: 650px;
+    height: 450;
+    max-height: 100%;
+  }
+
+  .overlay:target img {
+    animation: zoomDanFade .7s;
+  }
+
+  .overlay .cloase {
+    opacity: 0;
+  }
+
+  
+  .overlay:target .cloase {
+    animation: slideDownFade .5s .5s forwards;
+    position: absolute;
+    font-size: 24px;
+    color: #FFC60B;
+    top: 50px;
+    left: 50%;
+  }
+
+  @keyframes zoomDanFade {
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    }
+
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+  @keyframes slideDownFade {
+    0% {
+      opacity: 0;
+      margin-top: -20px;
+    }
+
+    100% {
+      opacity: 1;
+      margin-top: 0;
+    }
+  }
+
+  /* Kontak */
+  .kontak-item h1 {
+    font-family: Kanit;
+    color: white;
+    font-size: 30px;
+    font-weight: 500;
+  }
+
+  .kontak-item p {
+    font-size: 16px;
+  }
+
+  .kontak-item {
+    text-align: left;
+  }
+
+  .kontak .sosmed.email {
+    margin-left: 0px;
+  }
+
+  .kontak .sosmed.email,
+  .kontak .sosmed.instagram,
+  .kontak .sosmed.whatsapp,
+  .kontak .sosmed.facebook {
+    margin-right: 50px;
+  }
+
+  .kontak .sosmed {
+    margin-bottom: 30px;
+  }
+
+  .kontak .logo img {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  /* Footer */
+  .footer {
+    font-size: 12px;
+    text-align: left;
+  }
+}
